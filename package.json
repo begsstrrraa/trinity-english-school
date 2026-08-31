@@ -1,0 +1,9 @@
+{
+  "name": "trinity-english-school-redesign",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "assets": "node tools/download-trinity-assets.mjs"
+  }
+}

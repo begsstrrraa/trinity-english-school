@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Wall of Fame at Trinity English School - Celebrating academic toppers, sports champions, and outstanding student achievers.">
+  <title>Wall of Fame | Trinity English School</title>
+  <link rel="icon" href="../static/images/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="../static/css/site.css">
+  <script src="../static/js/lenis.min.js" defer></script>
+  <script src="../static/js/site.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html" aria-label="Trinity English School">
+        <img class="brand__logo" src="../static/images/logo.jpg" alt="Trinity English School Logo" width="1194"
+          height="1317">
+        <span class="brand__text">Trinity <span>English School</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
+      <div class="nav__links">
+        <a href="../index.html">Home</a>
+        <a href="../about-us/index.html">About Us</a>
+        <a href="../gallery/index.html">Gallery</a>
+        <!-- <a href="index.html" aria-current="page">Wall of Fame</a> -->
+        <a href="../academy/index.html">Academy</a>
+        <a class="nav__link-cta" href="../contact-us/index.html">Contact Us</a>
+      </div>
+      <a class="nav__cta" href="../contact-us/index.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero__content">
+        <div class="breadcrumbs"><a href="../index.html">Home</a><span>/</span><span>Wall of Fame</span></div>
+        <h1>Wall of Fame</h1>
+        <p>Honoring our brightest minds, academic rank holders, sports champions, and exemplary achievers who make
+          Trinity English School proud.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- Interactive Category Filters -->
+        <div class="fame-controls" data-reveal>
+          <div class="fame-filters" role="tablist" aria-label="Filter Achievers by Category">
+            <button class="fame-filter-btn is-active" type="button" data-filter="all">All Achievers</button>
+            <button class="fame-filter-btn" type="button" data-filter="academics">Academics &amp; Toppers</button>
+            <button class="fame-filter-btn" type="button" data-filter="sports">Sports &amp; Athletics</button>
+            <button class="fame-filter-btn" type="button" data-filter="science">Science &amp; Tech</button>
+            <button class="fame-filter-btn" type="button" data-filter="arts">Arts &amp; Cultural</button>
+          </div>
+          <div class="fame-count-badge">Showing <span class="fame-count-number">6</span> Achievers</div>
+        </div>
+
+        <!--
+          ==========================================================================
+          WALL OF FAME STUDENTS GRID
+          To add a new student card, duplicate any <article class="fame-card"> block below
+          and update the data-category ("academics", "sports", "science", "arts"),
+          image path, student name, class/grade, achievement, and year.
+          ==========================================================================
+        -->
+        <div class="fame-grid">
+          <!-- Student 1 -->
+          <article class="fame-card" data-category="academics" data-reveal>
+            <div class="fame-card__image-wrap">
+              <img class="fame-card__image" src="../static/images/students/student-01.jpg" alt="Student Achiever"
+                loading="lazy">
+              <span class="fame-card__badge">1st Rank SSC Board</span>
+              <span class="fame-card__category-tag">Academics</span>
+            </div>
+            <div class="fame-card__body">
+              <h2 class="fame-card__name">Aanya Sharma</h2>
+              <div class="fame-card__meta">Class 10th <span>•</span> Batch of 2024</div>
+              <p class="fame-card__award">Scored 98.6% in Maharashtra State Board SSC Examinations and secured 1st Rank
+                in the entire school.</p>
+              <div class="fame-card__footer">
+                <span>Distinction with Honors</span>
+                <span class="fame-card__year-pill">2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Student 2 -->
+          <article class="fame-card" data-category="academics" data-reveal>
+            <div class="fame-card__image-wrap">
+              <img class="fame-card__image" src="../static/images/students/student-02.jpg" alt="Student Achiever"
+                loading="lazy">
+              <span class="fame-card__badge">2nd Rank SSC Board</span>
+              <span class="fame-card__category-tag">Academics</span>
+            </div>
+            <div class="fame-card__body">
+              <h2 class="fame-card__name">Rohan Deshmukh</h2>
+              <div class="fame-card__meta">Class 10th <span>•</span> Batch of 2024</div>
+              <p class="fame-card__award">Secured 97.8% in SSC Examinations with 100/100 perfect score in Mathematics
+                and Science.</p>
+              <div class="fame-card__footer">
+                <span>Perfect Score in Math</span>
+                <span class="fame-card__year-pill">2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Student 3 -->
+          <article class="fame-card" data-category="arts" data-reveal>
+            <div class="fame-card__image-wrap">
+              <img class="fame-card__image" src="../static/images/students/student-03.jpg" alt="Student Achiever"
+                loading="lazy">
+              <span class="fame-card__badge">National Winner</span>
+              <span class="fame-card__category-tag fame-card__category-tag--arts">Arts &amp; Debate</span>
+            </div>
+            <div class="fame-card__body">
+              <h2 class="fame-card__name">Ananya Verma</h2>
+              <div class="fame-card__meta">Class 9th <span>•</span> Batch of 2024</div>
+              <p class="fame-card__award">Gold Trophy Winner at All-India Inter-School Public Speaking and Youth
+                Parliament Debate Championship.</p>
+              <div class="fame-card__footer">
+                <span>National Debate Champion</span>
+                <span class="fame-card__year-pill">2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Student 4 -->
+          <article class="fame-card" data-category="sports" data-reveal>
+            <div class="fame-card__image-wrap">
+              <img class="fame-card__image" src="../static/images/students/student-04.jpg" alt="Student Achiever"
+                loading="lazy">
+              <span class="fame-card__badge">State Gold Medalist</span>
+              <span class="fame-card__category-tag fame-card__category-tag--sports">Sports</span>
+            </div>
+            <div class="fame-card__body">
+              <h2 class="fame-card__name">Avinash Patil</h2>
+              <div class="fame-card__meta">Class 10th <span>•</span> Batch of 2024</div>
+              <p class="fame-card__award">Gold Medalist in 400m Track &amp; Field at Maharashtra State Level
+                Inter-School Athletics Championship.</p>
+              <div class="fame-card__footer">
+                <span>State Athletics Champion</span>
+                <span class="fame-card__year-pill">2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Student 5 -->
+          <article class="fame-card" data-category="science" data-reveal>
+            <div class="fame-card__image-wrap">
+              <img class="fame-card__image" src="../static/images/students/student-05.jpg" alt="Student Achiever"
+                loading="lazy">
+              <span class="fame-card__badge">Science Olympiad Gold</span>
+              <span class="fame-card__category-tag fame-card__category-tag--science">Science</span>
+            </div>
+            <div class="fame-card__body">
+              <h2 class="fame-card__name">Pooja Iyer</h2>
+              <div class="fame-card__meta">Class 8th <span>•</span> Batch of 2023</div>
+              <p class="fame-card__award">International Rank 1 in National Science Olympiad (NSO) and Winner of the
+                State Junior Scientist Trophy.</p>
+              <div class="fame-card__footer">
+                <span>International Rank 1</span>
+                <span class="fame-card__year-pill">2023</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Student 6 -->
+          <article class="fame-card" data-category="science" data-reveal>
+            <div class="fame-card__image-wrap">
+              <img class="fame-card__image" src="../static/images/students/student-06.jpg" alt="Student Achiever"
+                loading="lazy">
+              <span class="fame-card__badge">1st Place Robotics</span>
+              <span class="fame-card__category-tag fame-card__category-tag--science">Innovation</span>
+            </div>
+            <div class="fame-card__body">
+              <h2 class="fame-card__name">Aryan K. Sharma</h2>
+              <div class="fame-card__meta">Class 10th <span>•</span> Batch of 2024</div>
+              <p class="fame-card__award">1st Place Winner at National Inter-School STEM &amp; Robotics Exhibition for
+                automated robotics project.</p>
+              <div class="fame-card__footer">
+                <span>STEM &amp; Robotics Champion</span>
+                <span class="fame-card__year-pill">2024</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Band -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <div class="cta-band__inner">
+            <div>
+              <h2>Inspired by our student achievers?</h2>
+              <p>Join Trinity English School and empower your child to explore, innovate, and excel.</p>
+            </div>
+            <a class="button button--light" href="../contact-us/index.html">Admissions Enquiry →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="../index.html">
+            <span class="brand__mark">T</span>
+            <span class="brand__text">Trinity English School<small>Progressive Education Trust</small></span>
+          </a>
+          <p class="footer-about">Founded in 1996 by Mr. Richard D'Silva. Managed by Progressive Education Trust and
+            registered under Public Charity Trust Act 1950. Government Recognized — School Index No 16.16.057.</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Quick Links</h3>
+          <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../about-us/index.html">About Us</a>
+            <a href="../gallery/index.html">Gallery</a>
+            <!-- <a href="index.html">Wall of Fame</a> -->
+            <a href="../academy/index.html">Academy</a>
+            <a href="../contact-us/index.html">Contact Us</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-title">Contact</h3>
+          <div class="footer-contact">
+            <span>Penkarpada, Mira Road (E), Thane – 401104</span>
+            <a href="tel:02228964150">022 – 28964150</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Trinity English School. All Rights Reserved.</span>
+        <span>Managed by Progressive Education Trust</span>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+
+</html>
